@@ -8,7 +8,7 @@ incrementBtn.addEventListener('click', function() {
 	counterValue+=1
 	console.log(counterValue);
 	result.textContent = counterValue
-	result.style.color = 'green'
+	result.style.color = '#00fa0d'
 })
 
 decrementBtn.addEventListener('click', function() {

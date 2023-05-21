@@ -15,11 +15,12 @@ const images = [
 
 const listEl = document.querySelector('ul')
 
-const itemEl = images.map(({ url, alt }) => `<li><img class="animals" src="${url}" alt="${alt}" width="360"></img></li>`).join('')
+const itemEl = images.map(({ url, alt }) =>
+`<li><img class="animals" src="${url}" alt="${alt}" width="360"></img></li>`).join('')
   
 listEl.insertAdjacentHTML('beforeend', itemEl)
 
-console.log(listEl);
+
 
 
 

@@ -16,11 +16,10 @@ body {
 input {
   padding: 8px;
   font: inherit;
-  border: transparent;
 }
 
 input:focus {
-outline: lightblue 3px solid;
+outline: rgb(225, 149, 8) 1px solid;
 }
 
 button {

@@ -21,7 +21,7 @@ const itemEl = images.map(({ url, alt }) =>
 listEl.insertAdjacentHTML('beforeend', itemEl)
 
 
-
+console.log(listEl);
 
 
 

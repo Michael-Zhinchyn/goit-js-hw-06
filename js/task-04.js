@@ -10,7 +10,6 @@ incrementBtn.addEventListener('click', () => {
 	result.style.color = '#00fa0d'
 })
 
-
 decrementBtn.addEventListener('click', () => {
 	counterValue-=1
 	result.textContent = counterValue

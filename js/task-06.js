@@ -5,7 +5,6 @@ input.addEventListener('blur', function(event) {
   const requiredLength = parseInt(input.dataset.length);
 
 
-
   if (inputValue.length === requiredLength) {
   
     input.classList.add('valid');
@@ -16,12 +15,7 @@ input.addEventListener('blur', function(event) {
   }
 });
 
-// if (inputValue.length === requiredLength) {
-//   input.classList.remove('invalid');
-// } else {
-//   input.classList.add('invalid');
-// }
-// })
+
 
 
 
